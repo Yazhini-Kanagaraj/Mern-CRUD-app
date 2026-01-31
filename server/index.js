@@ -9,7 +9,7 @@ app.use(cors());
 app.use(express.json());
 
 //connect to MongoDB
-mongoose.connect("mongodb://127.0.0.1:27017/testdb")
+mongoose.connect("mongodb+srv://thehushedrain_db_user:tH6K4Lw1qVGyEG6G@cluster0.3zodmi1.mongodb.net/?appName=Cluster0")
  .then(()=> console.log("Connected to MongoDB"))
  .catch(err=>console.error(err))
 
